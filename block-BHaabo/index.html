@@ -6,3 +6,82 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper. 
 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/stylesheet/style.css">
+    <script src="https://kit.fontawesome.com/10d78f47ec.js" crossorigin="anonymous"></script>
+    <title>flex 2</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container flex">
+            <a class="brand" href="#">
+                <img src="assets/logo%20(1).png" alt="brand logo" />
+            </a>
+            <nav class="nav">
+                <a href="#"><img src="assets/icons/bell.svg"></a>
+
+                <a href="#">Sarah Jone<img src="assets/icons/user.svg"> </a>
+            </nav>
+        </div>
+    </header>
+    <main class="main container">
+        <aside class="left-box">
+            <div class="flex-1">
+                <img class="dashboard-img" src="assets/icons/dashboard.svg" alt="Dashboard">
+                <h2>Dashboard</h2>
+            </div>
+            <div class="flex-1">
+                <img class="article-img" src="assets/icons/article.svg" alt="Article">
+                <h2>Article</h2>
+            </div>
+            <div class="flex-1">
+                <img class="article-img-2" src="assets/icons/analytics.svg" alt="Analytics">
+                <h2>Analytics</h2>
+            </div>
+            <div class="flex-1">
+                <img class="article-img-3" src="assets/icons/inbox.svg" alt="Inbox">
+                <h2>Inbox</h2>
+            </div>
+            <div class="flex-1">
+                <img class="article-img-4" src="assets/icons/setting.svg" alt="settings">
+                <h2>Setting</h2>
+            </div>
+
+            <div class="logout-button">
+                <img src="assets/icons/log-out.svg" alt="logout-button">
+                <h2>Log Out</h2>
+            </div>
+        </aside>
+        <article class="box-2">
+            <img class="img" src="assets/01.png">
+            <h1>Why we are doing AltCampus?</h1>
+            <p>AltCampus is an alternative to college that you wish existed. Currently we are offering an in-house, 6-monh long program to train people in quality software development, where they don't have to pay anything until they are hired.</p>
+            <p>
+                We live in the world of digital skills. These skills are evolving and so is their demand, Students/Professionals who are not responsive to the changes in industry demands, in terms of skills. will have a hard time surviving, well at least flourishing.
+            </p>
+            <a href="" class="btn btn-alt">Read More</a>
+
+        </article>
+    </main>
+    <footer class="footer">
+        <div class="container flex">
+            <small>&copy;alt campus</small>
+            <nav>
+                <a href="#">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
