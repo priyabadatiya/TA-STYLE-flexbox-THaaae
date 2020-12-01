@@ -1,0 +1,324 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* ----------------------------------------css reset ends here--------------------------------- */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+body {
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    background: linear-gradient(to right, rgb(90, 72, 119), rgb(113, 64, 120));
+    height: 72px;
+    line-height: 72px;
+    color: white;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.brand {
+    float: left;
+    text-decoration: none;
+}
+
+.brand h1 {
+    color: white;
+    font-size: 32px;
+}
+
+.nav {
+    float: right;
+}
+
+.nav a {
+    font-size: 24px;
+    color: rgb(91, 182, 138);
+    text-decoration: none;
+    margin-left: 32px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.hero {
+    padding: 130px 0;
+    background: linear-gradient(to right, rgb(90, 72, 119), rgb(113, 64, 120));
+    text-align: left;
+    color: white;
+}
+
+.hero p {
+    color: gray;
+    font-size: 25px;
+    margin: 30px;
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+.hero-heading {
+    font-size: 55px;
+    font-weight: bolder;
+    padding: 29px;
+    width: 100%;
+}
+
+.btn {
+    font-size: 18px;
+}
+
+.btn-alt {
+    padding: 10px 20px;
+    background-color: rgb(55, 182, 103);
+    color: white;
+    text-decoration: none;
+    width: 14%;
+    border-radius: 40px;
+    margin: 70px;
+}
+
+.green {
+    color: green;
+}
+
+.flex-item {
+    width: 50%;
+}
+
+.feature {
+    color: rgb(102, 102, 102);
+    padding: 120px 0;
+    font-size: 20px;
+}
+
+.feature .btn {
+    font-size: 18px;
+}
+
+.feature .btn-alt {
+    color: gray;
+    background-color: white;
+    border: 1px solid gray;
+    margin-left: 20px;
+}
+
+.feature-head {
+    font-size: 40px;
+    padding: 29px;
+    width: 100%;
+}
+
+.feature p {
+    padding: 25px;
+}
+
+.feature-heading i {
+    margin: 30px;
+}
+
+.feature .img {
+    height: 400px;
+}
+
+.f-2 {
+    background-color: #fafafa;
+}
+
+.f-2 div {
+    padding-bottom: 35px;
+}
+
+.f-2 div div {
+    background-color: #ffffff;
+    border: .2px solid lightgrey;
+    border-bottom: 1px solid grey;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.msg-button input {
+    padding-bottom: 100px;
+    width: 500px;
+}
+
+.input {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.last {
+    margin: 20px;
+}
+
+.footer {
+    background: lightgrey;
+    padding: 32px 0;
+    color: gray;
+    font-size: 20px;
+}
+
+.foot {
+    text-align: center;
+}
